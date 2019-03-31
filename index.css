@@ -49,12 +49,18 @@ input[type="text"]{
     border: none;
     font-size: 125%;
     color: #ffffff;
-    text-shadow: 0 5px 10px #000000;
+    text-shadow: 5px 10px 15px #000000;
+    text-align: center;
 }
 input::placeholder{
     font-size: 125%;
     color: #ffffff;
-    text-shadow: 0 5px 10px #000000;
+    text-shadow: 5px 10px 15px #000000;
+}
+
+.js-toDoForm{
+    background-color: #000000;
+    opacity: .4;
 }
 
 .clicked {
@@ -63,31 +69,30 @@ input::placeholder{
 
 .Text {
     background: transparent;
+    margin: 20px;
 }
 
-.btn {
-    border: 0;
-    background: transparent;
+btn {
     cursor: pointer;
 }
 
 li {
     color: #ffffff;
     text-align: left;
-    text-shadow: 0 5px 10px #000000;
+    text-shadow: 0 5px 15px #000000;
 }
 
 .form,
 .greetings {
     display: none;
-    margin: 10px;
+    margin: 20px;
 }
 
 .showing {
     font-size: 200%;
     display: block;
     color: #ffffff;
-    text-shadow: 0 0 10px #000000;
+    text-shadow: 0 5 15px #000000;
 }
 
 @keyframes fadeIn{
